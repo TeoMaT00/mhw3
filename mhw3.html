@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ricerca Brano Spotify</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="mhw3.css"/>
+    <script src="mhw3.js" defer="true"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+
+    <form name="ricerca_contenuto" id="ricerca">
+
+        <h1>Ricerca il tuo brano tramite le API di Spotify </h1>
+
+        <label class="text">Inserisci Artista: <input type="text" name="cont", id="cont"> </label>
+
+        <select name="genere" id="genere">
+            <option>Album</option>
+            <option >Playlist</option>
+            <option>Traccia</option>
+            
+
+        </select>
+
+        <label> <input class="submit" type="submit"></label>
+
+
+    </form>
+
+    <section id="img_album"></section>
+
+    <section id="modale" class="hidden"></section>
+    
+</body>
+</html>
